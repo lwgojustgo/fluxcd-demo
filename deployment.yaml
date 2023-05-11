@@ -5,7 +5,7 @@ metadata:
     app: hello-world-flask
   name: hello-world-flask
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: hello-world-flask
@@ -15,5 +15,5 @@ spec:
         app: hello-world-flask
     spec:
       containers:
-        - image: lwsnake/hello-world-flask:v1
+        - image: lwsnake/hello-world-flask:latest
           name: hello-world-flask
