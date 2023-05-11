@@ -5,7 +5,7 @@ metadata:
     app: hello-world-flask
   name: hello-world-flask
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: hello-world-flask
